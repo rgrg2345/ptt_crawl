@@ -1,0 +1,255 @@
+→ jerry031181: 5錯了 04/11 14:38
+→ jerry031181: Step5 04/11 14:38
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1460354946.A.E3A.html
+
+→ jerry031181: 除了ir/reflexive 其他關係都是p->q的關係 04/13 12:31
+→ jerry031181: 所以滿足p後看q是否滿足,若已~p 則必成立 04/13 12:32
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1460448800.A.9E6.html
+
+→ jerry031181: abcdef OK   g應該為ready 04/17 23:29
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1460893413.A.57F.html
+
+→ jerry031181: 14.因為定義在有限體 04/20 07:53
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1461080244.A.56B.html
+
+→ jerry031181: (-1 1 ）,(1 -1)€R 但(-1 -1)不屬於R 04/09 19:54
+→ jerry031181: d. x=ky  k€R 04/09 19:55
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1460192662.A.67C.html
+
+→ jerry031181: 先求出V  ui=(1/ai)Avi  (ai是非零singular value) 02/25 12:12
+→ jerry031181: 剩下的從N(At)求   記得要單位化+正交化 02/25 12:13
+→ jerry031181: Cofactor展開得樓樓上的式子 02/25 15:06
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1456282388.A.38E.html
+
+→ jerry031181: 考完118  難度差好多QQ 02/19 13:36
+→ jerry031181: y大 8.不是要任意連續3輪都滿足嗎  你那樣好像怪怪的 02/19 14:28
+→ jerry031181: 我是用類似bakery的概念寫的 02/19 15:06
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1455855186.A.C6F.html
+
+→ jerry031181: 只有第3.4addr對應的set含恰被參考一次的block 02/16 19:55
+→ jerry031181: 125是同一個block 被參考了3次 02/16 19:56
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1455618942.A.F6B.html
+
+→ jerry031181: 15A沒選 一題意他的full node的子點會隨著level增加 02/17 00:29
+→ jerry031181: 然後我就推出了一個n!的node數QQ  6.false跟F大一樣 02/17 00:30
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1455636494.A.B8E.html
+
+→ jerry031181: 10不是T嗎  2-node的意思不是branch factor為2嗎@@ 02/17 14:02
+→ jerry031181: 1.我的想法是 他想問coloring是不是NPC吧lower bound 02/17 14:04
+→ jerry031181: n^k是講是不是有polynomial解 可是2color有 所以選F 02/17 14:05
+→ jerry031181: 5.binomial heap不是除了insert,Dec key外其他op都花 02/17 14:10
+→ jerry031181: O(logn)  所以應該還是Logn吧 02/17 14:11
+→ jerry031181: 問一下為什麼14d 還要取log 到樹葉的path=leaf數吧 02/17 14:17
+→ jerry031181: leaf 最多不是到約1/2的node 所以感覺O(max na,nb)) 02/17 14:18
+→ jerry031181: 11b 還要maintain last還是O(n) E確認空只要O(1) 02/17 14:36
+→ jerry031181: 把最大刪除=刪last node 但single link不知道前一點 02/17 14:45
+→ jerry031181: 所以要花O(n)去找到下一個last node阿 02/17 14:46
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1455684841.A.C8F.html
+
+→ jerry031181: 104.1AC 2.DE 3.B 4.B 5.ADE 6.AD 7.BCDE 8.B 9.ABCD02/17 20:24
+→ jerry031181: 10.CE 11.ABE 12.ACE02/17 20:25
+→ jerry031181: 對個答案QQ02/17 20:26
+→ jerry031181: 對耶6200可能是沒有被用到的 我以為轉出來不合法也可 02/18 06:03
+→ jerry031181: 1bd確實也有 沒選到  10感謝金花大 查了恐龍確實有 02/18 08:30
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1455697216.A.561.html
+
+→ jerry031181: POS->TOS->topological sort->DAG 02/09 16:04
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1454946229.A.758.html
+
+→ jerry031181: 2我認為 extractmin是跟一般heap一樣動作花logV 02/10 12:33
+→ jerry031181: 而decrease key則是從該data對應leaf往上調整花logV 02/10 12:33
+→ jerry031181: 所以可以當作heap這樣 整個time O(VlogV+VE)=(V^2.5) 02/10 12:34
+→ jerry031181: 1的話我想到的有2種 O(V^2+E),O(V^3)兩種 02/10 12:37
+→ jerry031181: 用一般array+adj list 迴圈+extract min 花V^2,Dkey 02/10 14:25
+→ jerry031181: O(1) 所以是O(V^2+E) 另一種是用matrix 每個vertex的 02/10 14:27
+→ jerry031181: for each v屬於adj(u)這邊要花O(V)*DkeyO (1)=O(V) 02/10 14:28
+→ jerry031181: 所以total O(V^3) 02/10 14:28
+→ jerry031181: 不過題目是寫用list 所以我寫第一種 但這樣比(2)還 02/10 14:30
+→ jerry031181: XXXXXXXXXXX快... 02/10 14:30
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1455030337.A.A32.html
+
+→ jerry031181: interleave變成多個memory bank 一次可以讀較多word 01/30 11:17
+→ jerry031181: 但bus寬度不變 所以還是一次只能傳1個word 01/30 11:17
+→ jerry031181: 這題沒給bank數  我就直接拿a小題算出來的當bank了 01/30 11:19
+→ jerry031181: 是喔 01/30 18:08
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1454120197.A.713.html
+
+→ jerry031181: {1/lg^2n + 1/[(lgn)-1]^2+...+1/2^2+1/1^2} 01/31 14:48
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1454221480.A.200.html
+
+→ jerry031181: http://m.imgur.com/1hZUrZ5 01/28 16:21
+→ jerry031181: http://m.imgur.com/Oj1uWSd 01/28 16:21
+→ jerry031181: 9-2我寫到xsort去了QQ10-3漏掉感謝糾正 01/28 16:53
+→ jerry031181: 18圖值不一定那樣 主要是找到leaf在哪 感謝糾正手誤 01/28 16:56
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1453960137.A.DE9.html
+
+→ jerry031181: 答案應該是你那樣沒錯啦～ 01/21 23:50
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1453373225.A.1A3.html
+
+→ jerry031181: 那兩條式子和相同的least square err好像沒關聯耶.. 01/22 10:45
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1453396030.A.FCA.html
+
+→ jerry031181: 補充一下 t大的那個頁框號碼還要乘上page size 還有 01/15 23:56
+→ jerry031181: 交大給的答案似乎是沒/4的 01/15 23:56
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1452869124.A.FDB.html
+
+→ jerry031181: a. 我覺得是RR會退化成FIFO所以沒比較好 12/26 18:11
+→ jerry031181: e.主要是cache的 flush以及reload 負擔太大 12/26 18:11
+→ jerry031181: 17我覺得是256 因為WWS最大=一個app某個時間最大的 12/26 21:52
+→ jerry031181: Mem需求  18我想的跟你一樣 12/26 21:54
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1451109136.A.F1D.html
+
+→ jerry031181: DMA只跟memory 溝通 用wb可能會拿到錯誤資料 12/21 23:43
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1450710959.A.EDA.html
+
+→ jerry031181: 第一還湊和的出來 第二題我問洪溢他說他沒看過也不會 12/14 23:56
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1449983617.A.102.html
+
+→ jerry031181: 你不是算16嗎？12/15 12:24
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1450152258.A.90A.html
+
+→ jerry031181: a.被映射過去的向量要LI才保證1-1 12/18 09:30
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1450333034.A.150.html
+
+→ jerry031181: 我也認為是c3,ID 但我問張凡他說是在c4 覺得很疑惑 12/08 16:54
+→ jerry031181: 覺得他給的公式怪怪的 12/08 16:56
+→ jerry031181: 課本有兩個沒畫  總覺得這個 stall的地方很怪 12/09 08:15
+→ jerry031181: 懂了  謝謝 12/09 18:18
+→ jerry031181: 什麼p459 12/09 23:00
+→ jerry031181: 感謝大家  觀念釐清了 12/11 14:43
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1449547437.A.B2E.html
+
+→ jerry031181: 不能用block吧  其他process怎麼知道要wakeup誰 11/13 13:52
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1447333109.A.22C.html
+
+→ jerry031181: 2 只能放在第二行  放第三行還是會有mem級hazard 11/01 07:50
+→ jerry031181: Mem to 1st 是load-used ;EXE to 1st 2nd 分別是 11/01 08:02
+→ jerry031181: EXE級和MEM級 所以除了MEM級以外stall2 cycle都可解 11/01 08:03
+→ jerry031181: 所以(1)CPI=1+(0.1+0.1+0.25)*2+0.05*1=1.95 11/01 08:06
+→ jerry031181: Both的看成to1st就可以了 http://imgur.com/AbzjB7t 11/01 08:09
+→ jerry031181: (2)的話因為只有load use要stall 1cycle所以是1.25 11/01 08:12
+→ jerry031181: 2. 1.3有raw(Mem 級)2.3有(EXE)級 所以你插再2.3間 11/01 08:15
+→ jerry031181: 會讓2.3產生(MEM級)可是他只提供EXE forward 不可用 11/01 08:16
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1446288872.A.873.html
+
+→ jerry031181: http://imgur.com/CE2NIZD 11/07 23:32
+→ jerry031181: 超過2^16B的位址access 時index才會改變 但一樣8個 11/07 23:33
+→ jerry031181: 一組   真正影響的只有byte addr轉block addr那邊 11/07 23:34
+→ jerry031181: 阿  我發現我寫反了XD 是index一直再變QQ 我上面講的 11/07 23:36
+→ jerry031181: 圖中<1,0>改成<0,1>  tag不變  然後過2^16B變的是tag 11/07 23:39
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1446908388.A.5AB.html
+
+→ jerry031181: 因為page table也在mem中所以存page table和page各1 10/27 10:54
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1445911469.A.07A.html
+
+→ jerry031181: 這題算是要證明 不是只找出其中一解而已10/31 17:44
+→ jerry031181: 怎麼用生成函數證阿... 其實這題不太會哈哈QQ 11/01 08:34
+→ jerry031181: 這樣好像也可以轉成Pn的著色數 只是不知道怎套<=7証 11/01 11:15
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1446277147.A.A67.html
+
+→ jerry031181: C=a+bi    C*C bar=a^2+b^2 10/15 23:20
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1444876750.A.C71.html
+
+→ jerry031181: 樓上各種小黃經典XDD  http://m.imgur.com/ay3MO9A 10/18 23:48
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1445097443.A.FBF.html
+
+→ jerry031181: 我也記得arithmetic的imm16才是se ,logic的只補0 10/04 16:56
+→ jerry031181: 2.13我用算的答案沒錯  2.12我昨天複習時看到 10/06 15:57
+→ jerry031181: 張凡的習題是給 0x00005555 所以你想的應該沒錯 10/06 15:59
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1443928931.A.0BF.html
+
+→ jerry031181: 資料在memory 可是OS不知道阿 所以 才有IO complete 09/28 01:11
+→ jerry031181: 去通知OS 而那段就是處理interrupt的routine 09/28 01:12
+→ jerry031181: 我是覺得那不是device driver啦 應該是io subsystem 09/28 01:14
+→ jerry031181: 我是覺得是interrupt handler generate interrupt給 09/28 10:42
+→ jerry031181: OS 然後根據收到的interrupt 去查中斷向量表 去執行 09/28 10:43
+→ jerry031181: ISR(取回buffer 中的data）然後再 回復interrupt前 09/28 10:45
+→ jerry031181: 暫停的process 而那個需要data的process則是被移到 09/28 10:46
+→ jerry031181: Ready queue 等下次他取得cpu時就能使用memory中 09/28 10:47
+→ jerry031181: 的data 09/28 10:49
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1443368867.A.619.html
+
+→ jerry031181: 2 S有生成W  但W只有三維不是R4  W只是R4的子空間而 09/10 20:11
+→ jerry031181: 你看W的一般式[ a1 a2 a3 -a1+a2+a3]只有三個自由變 09/10 20:13
+→ jerry031181: 變數 雖然他是4維  但他只在4維裏面生成3維的subspac 09/10 20:14
+→ jerry031181: http://imgur.com/vL23tPZ 更簡單的方法 直接看他們 09/10 20:18
+→ jerry031181: 有沒有LI就是了P2找到三個LI的vector就可以當基底生 09/10 20:19
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1441784141.A.E70.html
+
+→ jerry031181: http://imgur.com/e7PHhU8http://imgur.com/ay3MO9A 09/10 20:28
+→ jerry031181: http://imgur.com/e7PHhU8 09/10 20:29
+→ jerry031181: 附上詩歌～     http://m.imgur.com/ay3MO9A 09/10 20:30
+→ jerry031181: singular不一定指的是方陣喔  只要N(A)存在非零解就 09/11 00:33
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1441872462.A.2DC.html
+
+→ jerry031181: 我是都擺成行來看，a擺起來就是4x3 b3x4 c3x3 08/20 20:21
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1440049610.A.F1A.html
+
+→ jerry031181: 3.簡單來說是為了湊乘(k+1)^3硬湊的08/03 23:25
+推 jerry031181: 因為k>=10 且1.1^3<2 所以才那樣用 方便湊最後一項08/03 23:27
+→ jerry031181: 4. 同餘n也就是那個數+- k*n都會是同餘關係08/03 23:30
+→ jerry031181: 5.他只是把它寫成通解形式  那兩項k剛好會消掉08/03 23:32
+→ jerry031181: 6小費瑪告訴我們那個餘數是1 加上同餘可乘u r right08/03 23:36
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1438585853.A.01F.html
+
+→ jerry031181: 5錯了 04/11 14:38
+→ jerry031181: Step5 04/11 14:38
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1460354946.A.E3A.html
+
+→ jerry031181: 除了ir/reflexive 其他關係都是p->q的關係 04/13 12:31
+→ jerry031181: 所以滿足p後看q是否滿足,若已~p 則必成立 04/13 12:32
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1460448800.A.9E6.html
+
+→ jerry031181: abcdef OK   g應該為ready 04/17 23:29
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1460893413.A.57F.html
+
+→ jerry031181: 14.因為定義在有限體 04/20 07:53
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1461080244.A.56B.html
+
+→ jerry031181: 36%應該是data mem的access,指令的mem access一定有 03/06 09:21
+→ jerry031181:  所以是1.36沒錯 03/06 09:21
+
+     Url:https://www.ptt.cc/bbs/Grad-ProbAsk/M.1457218793.A.3B7.html
+
